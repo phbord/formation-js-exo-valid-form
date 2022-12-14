@@ -1,0 +1,135 @@
+/* form blocks */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-valid {
+  width: 100%;
+  max-width: 400px;
+}
+ 
+.group-valid {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-big {
+  margin-top: 40px;
+}
+
+
+/* form elements */
+.label-valid,.input-valid {
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.label-valid {
+  padding: 10px 0;
+}
+
+.input-valid {
+  padding: 10px;
+  border: #000 solid 2px;
+}
+
+
+/* buttons */
+.btn-valid {
+  width: 100%;
+  margin: 10px 0 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#btn-submit {
+  background-color: blue;
+}
+
+#btn-reset {
+  background-color: gray;
+}
+
+/* message box */
+.box-valid {
+  margin-top: 10px;
+  padding: 10px;
+  border: red dotted 2px;
+}
+
+.box-valid p {
+  margin: 0;
+  color: red;
+}
+
+
+/* bar */
+.bar-valid {
+  margin-top: 10px;
+  display: flex;
+  border: #000 solid 1px;
+}
+
+
+/* colors */
+.border-validated-valid,.border-error-valid {
+  border-width: 2px;
+}
+
+.border-validated-valid {
+  border-color: green;
+}
+
+.border-error-valid {
+  border-color: red;
+}
+
+.color-validated-valid,.color-error-valid {}
+
+.color-validated-valid {
+  color: green;
+}
+
+.color-error-valid {
+  color: red;
+}
+
+.bgcolor-validated-valid,.bgcolor-error-valid,.bgcolor-warning-valid {
+  height: 15px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.bgcolor-validated-valid {
+  width: 100%;
+  background-color: green;
+}
+
+.bgcolor-warning-valid {
+  width: 66.66%;
+  background-color: orange;
+}
+
+.bgcolor-error-valid {
+  width: 33.33%;
+  background-color: red;
+}
+
+.d-none {
+  display: none;
+}
+
